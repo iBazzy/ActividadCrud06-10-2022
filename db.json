@@ -1,0 +1,67 @@
+{
+  "Verduleria": [
+    {
+      "id": 2,
+      "verdura": "Lechuga",
+      "valor": 700,
+      "stock": 100,
+      "lugarObtencion": "La vega"
+    },
+    {
+      "id": 3,
+      "verdura": "Cebolla",
+      "valor": 500,
+      "stock": 350,
+      "lugarObtencion": "La vega"
+    },
+    {
+      "id": 4,
+      "verdura": "Pimenton",
+      "valor": 500,
+      "stock": 75,
+      "lugarObtencion": "La vega"
+    },
+    {
+      "id": 5,
+      "verdura": "Berenjena",
+      "valor": 1300,
+      "stock": 120,
+      "lugarObtencion": "La vega"
+    },
+    {
+      "id": 6,
+      "verdura": "Espinaca",
+      "valor": 750,
+      "stock": 10,
+      "lugarObtencion": "La vega"
+    },
+    {
+      "id": 7,
+      "verdura": "Zanahoria",
+      "valor": 500,
+      "stock": 85,
+      "lugarObtencion": "La vega"
+    },
+    {
+      "id": "8",
+      "verdura": "Tomate",
+      "valor": 1200,
+      "stock": 450,
+      "lugarObtencion": "Eula"
+    },
+    {
+      "id": "1",
+      "verdura": "Cebollin",
+      "valor": "500",
+      "stock": "300",
+      "lugarObtencion": "La Vega"
+    },
+    {
+      "id": "9",
+      "verdura": "Cilantro",
+      "valor": "700",
+      "stock": "100",
+      "lugarObtencion": "Eula"
+    }
+  ]
+}

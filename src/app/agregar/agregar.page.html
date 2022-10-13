@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="5">
+          <ion-title>Agregar</ion-title>
+        </ion-col>
+        <ion-col size="7">
+          <ion-button [routerLink]="['']">Volver al Menu</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>Agregar Producto</ion-card-header>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="12">
+          <ion-label>Ingresar ID</ion-label>
+          <ion-input [(ngModel)]="productoNuevo.id"></ion-input>
+        </ion-col>
+        <ion-col size="12">
+          <ion-label>Ingresar Verdura</ion-label>
+          <ion-input [(ngModel)]="productoNuevo.verdura"></ion-input>
+        </ion-col>
+        <ion-col size="12">
+          <ion-label>Ingresar Valor</ion-label>
+          <ion-input [(ngModel)]="productoNuevo.valor"></ion-input>
+        </ion-col>
+        <ion-col size="12">
+          <ion-label>Ingresar stock</ion-label>
+          <ion-input [(ngModel)]="productoNuevo.stock"></ion-input>
+        </ion-col>
+        <ion-col size="12">
+          <ion-label>Ingresar Lugar de Obtención</ion-label>
+          <ion-input [(ngModel)]="productoNuevo.lugarObtencion"></ion-input>
+        </ion-col>
+
+      </ion-row>
+    </ion-grid>
+    <ion-button (click)="guardarProduct2()">Guardar</ion-button>
+  </ion-card>
+
+
+
+</ion-content>
